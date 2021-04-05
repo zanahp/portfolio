@@ -10,6 +10,7 @@ body {
 
 .hero {
   color: white;
+  padding: 290px;
   text-align: center;
 }
 
@@ -32,12 +33,11 @@ nav {
 }
 
 footer {
-  color: white;
   font-family: var(--secondary-heading-font);
   text-align: end;
-  text-decoration: none;
 }
 
-.footer-links:hover {
-  text-decoration: underline;
+.footer-links {
+  color: white;
+  text-decoration: none;
 }
