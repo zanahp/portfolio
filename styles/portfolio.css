@@ -3,12 +3,12 @@
   --secondary-heading-font: "Play", sans-serif;
 }
 
-body {
+.hero body {
   background-image: url("/images/background-color-block.png");
   background-position: center;
 }
 
-.hero {
+.hero-body {
   color: white;
   padding: 290px 0;
   text-align: center;
