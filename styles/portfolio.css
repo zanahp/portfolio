@@ -3,17 +3,11 @@
   --secondary-heading-font: "Play", sans-serif;
 }
 
-.hero body {
+body {
   background-image: url("/images/background-color-block.png");
   background-position: center;
-}
-
-.hero-body {
   color: white;
-  padding: 290px 0;
-  text-align: center;
 }
-
 nav {
   font-family: var(--secondary-heading-font);
   font-size: 20px;
@@ -21,14 +15,25 @@ nav {
 .bg-darker {
   background-color: rgb(05, 05, 05);
 }
+footer {
+  font-family: var(--secondary-heading-font);
+  text-align: end;
+}
+.footer-links {
+  color: white;
+  text-decoration: none;
+}
 
+.hero {
+  padding: 290px 0;
+  text-align: center;
+}
 .hero h1 {
   font-family: var(--primary-heading-font);
   font-size: 100px;
   line-height: 90px;
   padding-top: 20px;
 }
-
 .hero h2 {
   font-family: "Play", sans-serif;
   font-size: 40px;
@@ -36,14 +41,30 @@ nav {
   opacity: 30%;
 }
 
-footer {
-  font-family: var(--secondary-heading-font);
-  text-align: end;
+.about-page {
+  padding-top: 150px;
 }
-
-.footer-links {
-  color: white;
-  text-decoration: none;
+.headers {
+  text-align: center;
+}
+.about-page h1 {
+  font-family: var(--primary-heading-font);
+  font-size: 90px;
+  padding-bottom: 20px;
+}
+.about-page h2 {
+  font-family: var(--secondary-heading-font);
+  font-size: 60px;
+  line-height: 30px;
+}
+.about-page h3 {
+  font-family: var(--secondary-heading-font);
+  opacity: 30%;
+  padding: 0 0 30px 20px;
+}
+.headshot {
+  display: block;
+  padding-left: 70px;
 }
 
 @media (max-width: 576px) {
@@ -52,7 +73,6 @@ footer {
     line-height: 70px;
   }
 }
-
 @media (max-width: 374px) {
   .hero h1 {
     font-size: 60px;
