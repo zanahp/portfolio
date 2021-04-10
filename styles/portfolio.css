@@ -99,6 +99,23 @@ footer {
   font-family: var(--secondary-heading-font);
 }
 
+.contact-page {
+  font-family: var(--secondary-heading-font);
+  padding-top: 210px;
+  text-align: center;
+}
+.contact-page h1 {
+  font-size: 80px;
+  font-family: var(--primary-heading-font);
+}
+.contact-page a {
+  color: rgb(223, 183, 196);
+  text-decoration: none;
+}
+.contact-page a:hover {
+  color: rgb(238, 142, 172);
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 75px;
