@@ -16,12 +16,22 @@ nav {
   background-color: rgb(05, 05, 05);
 }
 footer {
+  display: block;
   font-family: var(--secondary-heading-font);
-  text-align: end;
+  margin: 10px 0;
 }
 .footer-links {
-  color: white;
+  background: white;
+  border-radius: 50%;
+  color: black;
+  margin: 0 20px;
+  padding: 10px 12px;
   text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.footer-links:hover {
+  background: rgb(223, 183, 196);
+  color: black;
 }
 
 .hero {
@@ -79,12 +89,13 @@ footer {
   display: block;
   padding-left: 60px;
 }
+.full-list {
+  padding: 150px 0;
+}
 .skills-title {
   font-family: var(--primary-heading-font);
   font-size: 60px;
   line-height: 30px;
-  padding-left: 550px;
-  padding-top: 200px;
 }
 .skills-list {
   list-style: none;
